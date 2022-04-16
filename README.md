@@ -9,15 +9,13 @@ enabled on an OPA running in server mode.
 I'm running both the OPA agent and [k6](https://k6.io/docs/) test client on my local mac laptop.
 
 ## Test 1: No TLS settings (baseline)
-Run OPA
+Run OPA (OPA version 0.39.0)
 ```sh
-# opa version: 0.39.0
 opa run --server --bundle ./bundle
 ```
 
-Run k6 `http-script.js` test
+Run k6 `http-script.js` test (k6 version 0.37.0)
 ```sh
-# k6 version: v0.37.0
 k6 run --duration 5s ./k6/http-script.js
 ```
 
