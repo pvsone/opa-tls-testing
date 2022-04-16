@@ -24,8 +24,7 @@ Results (redacted for brevity)
 running (05.0s), 0/1 VUs, 17060 complete and 0 interrupted iterations
 default ✓ [======================================] 1 VUs  5s
 
-     http_req_connecting............: avg=14ns     min=0s       med=0s       
-     max=248µs   p(90)=0s       p(95)=0s
+     http_req_connecting............: avg=14ns     min=0s       med=0s       max=248µs   p(90)=0s       p(95)=0s
      
      http_req_duration..............: avg=219.47µs min=131µs    med=186µs    max=16.81ms p(90)=235µs    p(95)=294µs
 
